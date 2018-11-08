@@ -62,7 +62,7 @@ directly under the Web root.
 http://localhost/basic/web/
 ~~~
 
-### Install from an Archive File
+### Install from an Archive Files
 
 Extract the archive file downloaded from [yiiframework.com](http://www.yiiframework.com/download/) to
 a directory named `basic` that is directly under the Web root.
