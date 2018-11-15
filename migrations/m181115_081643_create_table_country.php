@@ -7,25 +7,13 @@ use yii\db\Migration;
  */
 class m181115_081643_create_table_country extends Migration
 {
-    // /**
-    //  * {@inheritdoc}
-    //  */
-    // public function safeUp()
-    // {
+    // Ketika Yii melakukan migrasi, maka Yii akan memulai 
+    // DB transaction dan memanggil safeUp() atau safeDown(). 
+    // Jika terdapat error DB yang terjadi di safeUp() atau safeDown(),
+    // maka transaksi akan di-rollback, sehingga memastikan database tetap dalam keadaan baik.
 
-    // }
 
-    // /**
-    //  * {@inheritdoc}
-    //  */
-    // public function safeDown()
-    // {
-    //     echo "m181115_081643_create_table_country cannot be reverted.\n";
 
-    //     return false;
-    // }
-
-    // Use up()/down() to run migration code without a transaction.
     public function safeUp()
     {
         $this->createTable('country', [
