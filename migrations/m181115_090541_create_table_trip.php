@@ -50,7 +50,7 @@ class m181115_090541_create_table_trip extends Migration
 
         $this->dropTable('trip');
     }
-    /*
+    /*s
 // Use safeUp/safeDown to run migration code within a transaction
 public function safeUp()
 {
