@@ -5,6 +5,7 @@ use yii\db\Migration;
 /**
  * Class m181115_090541_create_table_trip
  */
+//fixes number 3
 class m181115_090541_create_table_trip extends Migration
 {
 
